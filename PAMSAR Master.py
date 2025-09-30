@@ -37,8 +37,10 @@ def load_MSTAR_data(base_directory):
 
 # Replace 'path/to/your/base_directory' with the actual path where .mat files are located.
 # Locate .mat files with real MSTAR data.
-base_dir_real = r'C:/Users/mitch/Documents/SAMPLE_dataset_public-master/SAMPLE_dataset_public-master/mat_files/real'
+base_dir_real = r'C:/Users/mitch/Documents/PAMSAR/SAMPLE_dataset_public-master/mat_files/real'
 real_mat = load_MSTAR_data(base_dir_real)
 # Locate .mat files with synthetic MSTAR data.
-base_dir_synth = r'C:/Users/mitch/Documents/SAMPLE_dataset_public-master/SAMPLE_dataset_public-master/mat_files/synth'
+base_dir_synth = r'C:/Users/mitch/Documents/PAMSAR/SAMPLE_dataset_public-master/mat_files/synth'
 synth_mat = load_MSTAR_data(base_dir_real)
+
+Labels = Data_Load.MSTAR(base_dir_real)

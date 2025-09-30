@@ -67,7 +67,7 @@ if __name__ == "__main__":
     # Specify the path to your MSTAR dataset
     # For this example, we'll assume a local directory named 'mstar_dataset'
 
-    DATASET_PATH = r'C:/Users/mitch/Documents/SAMPLE_dataset_public-master/SAMPLE_dataset_public-master/mat_files/real'
+    DATASET_PATH = r'C:/Users/mitch/Documents/PAMSAR/SAMPLE_dataset_public-master/mat_files/real'
     # Instantiate the class
     mstar_loader = MSTAR(DATASET_PATH)
 
